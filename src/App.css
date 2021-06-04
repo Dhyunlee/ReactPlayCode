@@ -1,38 +1,121 @@
-.App {
+.app {
+  font-size: 16px;
+}
+
+.app .habit-header {
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem 3rem;
+}
+
+.app .habit-header h1 {
+  margin: 0 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.app .habit-header .fa-leaf {
+  font-size: 2rem;
+  color: green;
+}
+
+.habit-count {
+  width: 40px;
+  height: 40px;
+  background: green;
+  border-radius: 50%;
+  color: white;
+  font-size: 32px;
+  display: inline-block;
   text-align: center;
+  line-height: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app .habitAddForm {
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app .habitAddForm .add-input {
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid rgb(161, 155, 155);
+  font-size: 2rem;
+  outline: none;
+  padding: 5px 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app .habitAddForm .add-btn {
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 2rem;
+  border-radius: 8px;
+  padding: 5px 10px;
+  border: 0;
+  background: green;
+  color: aliceblue;
+}
+
+.app .habits {
+  margin: 20px 65px;
+  padding: 1rem 2rem;
+  background: #c9c3b2;
+  border-radius: 8px;
+  font-size: 2.5rem;
+}
+
+.app ul.habits .habit-name {}
+
+.app ul.habits .habit-count {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.habit-button {
+  margin-left: 1rem;
+  display: inline-block;
+  border: none;
+  background: transparent;
+  font-size: 2.5rem;
+}
+
+.habits li .fa-plus-square,
+.habits li .fa-minus-square {
+  color: #cc950a;
+}
+
+.habits li .fa-trash {
+  color: darkred;
+}
+
+.habits li .fa-edit {
+  color: olivedrab;
+}
+
+.habit-edit {
+  display: inline-block;
+  padding: 5px;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.habits-reset {
+  font-size: 1.5rem;
+  margin-left: 65px;
+  padding: 0.2em 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.behind {
+  display: none;
 }
