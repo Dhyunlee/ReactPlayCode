@@ -69,8 +69,6 @@
   font-size: 2.5rem;
 }
 
-.app ul.habits .habit-name {}
-
 .app ul.habits .habit-count {
   display: inline-block;
   margin-left: 10px;
@@ -104,6 +102,17 @@
   border: none;
   border-radius: 5px;
   outline: none;
+}
+
+.edit {
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 2rem;
+  border-radius: 8px;
+  padding: 5px 10px;
+  border: 0;
+  background: turquoise;
+  color: aliceblue;
 }
 
 .habits-reset {

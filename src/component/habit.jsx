@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class Habit extends Component {
+class Habit extends PureComponent {
   state = {
     editing: false,
     name: '',
@@ -21,7 +21,8 @@ class Habit extends Component {
     });
   };
 
-  handieEdit = () => {
+  handieEdit = e => {
+    e.preventDefault();
     console.log('실행');
     if (this.state.editing) {
       if (this.state.name !== '') {
@@ -46,29 +47,41 @@ class Habit extends Component {
       <>
         <li>
           {editing ? (
-            <>
+            <form action='' method='POST' onSubmit={this.handieEdit}>
               <input
                 className='habit-edit'
                 placeholder={name}
                 onChange={this.handleChange}
               />
-            </>
+              <button className='edit'>Edit</button>
+            </form>
           ) : (
-            <span className='habit habit-name'>{name}</span>
+            <>
+              <span className='habit habit-name'>{name}</span>
+              <span className='habit habit-count'>{count}</span>
+              <button
+                className='habit habit-button'
+                onClick={this.handleIncrement}
+              >
+                <i className='fas fa-plus-square'></i>
+              </button>
+              <button
+                className='habit habit-button'
+                onClick={this.handleDecrement}
+              >
+                <i className='fas fa-minus-square'></i>
+              </button>
+              <button className='habit habit-button' onClick={this.handieEdit}>
+                <i className='fas fa-edit'></i>
+              </button>
+              <button
+                className='habit habit-button'
+                onClick={this.handleDelete}
+              >
+                <i className='fas fa-trash'></i>
+              </button>
+            </>
           )}
-          <span className='habit habit-count'>{count}</span>
-          <button className='habit habit-button' onClick={this.handleIncrement}>
-            <i className='fas fa-plus-square'></i>
-          </button>
-          <button className='habit habit-button' onClick={this.handleDecrement}>
-            <i className='fas fa-minus-square'></i>
-          </button>
-          <button className='habit habit-button' onClick={this.handieEdit}>
-            <i className='fas fa-edit'></i>
-          </button>
-          <button className='habit habit-button' onClick={this.handleDelete}>
-            <i className='fas fa-trash'></i>
-          </button>
         </li>
       </>
     );
