@@ -10,7 +10,7 @@
 
 # demo image
 
-<img style="zoom: 67%;" src="./img/habitTracker.png" alt="demo-image" width="70%" />
+<img style="zoom: 67%;" src="./img/Habit Tracker demo.gif" alt="demo-image" width="70%" />
 
 # works
 
