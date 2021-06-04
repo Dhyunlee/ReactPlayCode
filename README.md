@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Havit tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About
 
-## Available Scripts
+## &nbsp;&nbsp; 취미목록 추가와 수정 및 취미 횟수 표시 및 목록 삭제 기능을 만들었습니다.
 
-In the project directory, you can run:
+## &nbsp;&nbsp; 리액트의 기본 문법과 응용력을 기르는데 목적을 둔 프로젝트입니다.
 
-### `yarn start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# demo image
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img style="zoom: 67%;" src="./img/habitTracker.png" alt="demo-image" width="300" height="300" />
 
-### `yarn test`
+# works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 취미 목록 추가, 수정 및 삭제 기능구현
+- 취미 횟수 (증가 또는 감소) 및 현재 진행중인 취미 목록 개수 표시
+- css 스타일을 따로 구현
 
-### `yarn build`
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Built width
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- react-app (CRA)
+- @fortawesome/fontawesome-free
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br />
 
-### `yarn eject`
+# Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## before you start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+아래 것들이 설치되어있는 지 확인하세요!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Nodejs 설치
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- npm 또는 yarn
 
-## Learn More
+## Project installation and start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Install npm, yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### [ npm ]
 
-### Code Splitting
+```bash
+   npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### [ yarn ]
 
-### Analyzing the Bundle Size
+```bash
+   yarn install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br/>
 
-### Making a Progressive Web App
+## Start project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### [ npm ]
 
-### Advanced Configuration
+```bash
+   npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### [ yarn ]
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+   yarn start
+```
