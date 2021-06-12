@@ -20,7 +20,7 @@
 
 <br />
 
-# Built width
+# Dependencies
 
 - react-app (CRA)
 - @fortawesome/fontawesome-free
