@@ -126,7 +126,6 @@
 }
 
 .behind {
-<<<<<<< HEAD:src/App.css
   position: absolute;
   width: 1px;
   height: 1px;
@@ -136,7 +135,3 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-=======
-  display: none;
-}
->>>>>>> 9383ee7da9a5418ee026dd732b7a2f759e3a9418:src/app.css
