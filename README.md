@@ -1,18 +1,18 @@
-# Havit tracker
+## Havit tracker
 
-# About
+## About
 
-## &nbsp;&nbsp; 취미목록 추가와 수정 및 취미 횟수 표시 및 목록 삭제 기능을 만들었습니다.
+### &nbsp;&nbsp; 취미목록 추가, 수정, 횟수 표시 및 목록 삭제 기능을 만들었습니다.
 
-## &nbsp;&nbsp; 리액트의 기본 문법과 응용력을 기르는데 목적을 둔 프로젝트입니다.
+### &nbsp;&nbsp; 리액트의 기본 문법과 응용력을 기르는데 목적을 둔 프로젝트입니다.
 
 <br />
 
-# demo image
+## demo image
 
 <img style="zoom: 67%;" src="./img/Habit Tracker demo.gif" alt="demo-image" width="70%" />
 
-# works
+## works
 
 - 취미 목록 추가, 수정 및 삭제 기능구현
 - 취미 횟수 (증가 또는 감소) 및 현재 진행중인 취미 목록 개수 표시
@@ -20,14 +20,14 @@
 
 <br />
 
-# Dependencies
+## Dependencies
 
 - react-app (CRA)
 - @fortawesome/fontawesome-free
 
 <br />
 
-# Getting Started
+## Getting Started
 
 ## before you start
 
