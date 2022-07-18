@@ -8,11 +8,11 @@
 
 <br />
 
-## demo image
+## Demo image
 
 <img style="zoom: 67%;" src="./img/Habit Tracker demo.gif" alt="demo-image" width="70%" />
 
-## works
+## Works
 
 - 취미 목록 추가, 수정 및 삭제 기능구현
 - 취미 횟수 (증가 또는 감소) 및 현재 진행중인 취미 목록 개수 표시
